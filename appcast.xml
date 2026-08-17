@@ -4,5 +4,27 @@
     <title>Barnacle</title>
     <language>en</language>
     <!-- ITEMS -->
+    <item>
+      <title>Barnacle 0.2.1</title>
+      <pubDate>Mon, 17 Aug 2026 10:58:57 +0100</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+### Added
+- **Deploy straight from a folder.** Right-click any folder while browsing and
+  choose Add Deploy Target Here — the deploy path is filled in for you.
+
+### Improved
+- **One-click GitHub sign-in.** Connecting a repository now opens GitHub in your
+  browser to authorise and you're done, with a short guided setup the first
+  time.
+- **A clearer deploy screen.** Deploying now shows the commit range and the
+  commits included, colour-coded file changes with add/change/remove counts,
+  and — while it runs — a live step-by-step view (commands, upload progress,
+  config files) with the server's command output and a plain success or
+  failure result.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/barnacle-updates/releases/download/v0.2.1/Barnacle-0.2.1.zip" sparkle:edSignature="hR/4KRtxQjxHF/yf9eH5SFUgTORUSetoq3MBuBr0Za+ucrqYo8uYkQwyKqol5Pq8b6qk9yNXO7v5G9UMl97pAQ==" length="17386815" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
