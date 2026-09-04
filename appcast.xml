@@ -5,6 +5,23 @@
     <language>en</language>
     <!-- ITEMS -->
     <item>
+      <title>Barnacle 0.2.2</title>
+      <pubDate>Fri, 04 Sep 2026 22:53:22 +0100</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<pre>
+### Fixed
+- **Barnacle Disk now shows your files.** Mounting a server in Finder could
+  leave an empty drive that also refused new files. Two things are fixed: the
+  mounted extension can now read the credentials it needs (so servers with a
+  passphrase-protected key connect), and it correctly maps the server's home
+  directory as the root of the mount, so files and folders appear and creating
+  them in Finder sends them to the server. Existing mounts heal themselves on
+  the next launch.</pre>]]></description>
+      <enclosure url="https://github.com/ijasonwhite/barnacle-updates/releases/download/v0.2.2/Barnacle-0.2.2.zip" sparkle:edSignature="De4FxTzcQuwbormDBwEKT3LJRjYb6g3PLkYU1n5Clum2YN3RGCymDfA/WkB3C+AVm3RI8+pVSmjs0b8sD+joBQ==" length="17413725" type="application/octet-stream"/>
+    </item>
+    <item>
       <title>Barnacle 0.2.1</title>
       <pubDate>Mon, 17 Aug 2026 10:58:57 +0100</pubDate>
       <sparkle:version>3</sparkle:version>
